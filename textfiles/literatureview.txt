@@ -1,0 +1,57 @@
+\section{Literature Review}
+
+\subsection{Previous Work}
+
+The extraction of UML class diagrams from informal software requirements has traditionally been addressed using Natural Language Processing (NLP) techniques combined with heuristic rules or domain ontologies. Over time, researchers have explored more advanced approaches, including machine learning (ML) and deep learning (DL), to improve automation, accuracy, and efficiency. Existing studies mainly fall into three categories: NLP-based, ML-based, and DL-based approaches \cite{ref7}.
+
+\subsubsection{NLP-Based Approaches}
+
+Ibrahim and Ahmad introduced the RACE tool, which uses NLP techniques to analyze software requirements and extract UML class diagrams. The process includes structural analysis, refinement of diagram elements, and validation of UML concepts. However, the generated diagrams often lack complete information \cite{ref8}.
+
+Kumar and Sanyal developed the SUGAR tool using the Rational Unified Process (RUP) methodology. It generates UML class diagrams from natural language requirements by first creating use case diagrams and then linking them to class diagram components. This approach supports object-oriented analysis but still relies heavily on predefined structures \cite{ref9}.
+
+Sharma et al. proposed the Functional Design Creation Tool (FDCT), which preprocesses and analyzes requirements to identify model entities and integrate them into high-level class diagrams \cite{ref10}.
+
+Deeptimahanti and Sanyal introduced UMGAR, a semi-automatic system that uses syntactic rules and analysis trees to extract UML elements. Although it can generate multiple UML diagram types, it requires human intervention to refine relationships and remove irrelevant elements \cite{ref11}.
+
+Similarly, the RAPID tool by More and Phalnikar can generate use case, sequence, and collaboration diagrams using an architecture similar to RACE \cite{ref12}.
+
+Shinde et al. developed a system that applies NLP preprocessing and rule-based extraction to generate UML class and sequence diagrams, and even produce Java source code from the extracted models \cite{ref13}.
+
+The UDRA tool by Amune and Naik combines NLP with domain ontologies to generate various UML diagrams such as class, object, package, and deployment diagrams. It supports relationships like association, generalization, and composition \cite{ref4}.
+
+Other language-specific approaches include the work of Jaiwai and Sammapun, who developed a system for Thai-language requirements, and Utama and Jang, who used SpaCy with linguistic rules to extract UML class diagrams from unrestricted natural language \cite{ref5}.
+
+Abdelnabi et al. proposed an NLP and heuristic-based method for generating class diagrams from informal requirements \cite{ref13}.
+
+Bashir et al. developed the READ tool, which uses the NLTK library and rule-based extraction to automatically identify classes, attributes, and operations. Their results showed improved accuracy compared to earlier tools \cite{ref14, ref15}.
+
+\subsubsection{Machine Learning and Deep Learning Approaches}
+
+Although NLP-based systems improved automation, they still struggle with ambiguity, incompleteness, and uncertainty in natural language requirements \cite{ref16}.
+
+Arachchi proposed a hybrid system that combines NLP, machine learning, and deep learning to generate UML class and use case diagrams. The system uses NLP for text processing, Naive Bayes for classification, and RNNs for identifying actors, classes, and relationships \cite{ref17}.
+
+Saini et al. introduced DoMoBOT, which integrates NLP with ML and DL models to generate domain models as UML class diagrams. The system preprocesses text using SpaCy, extracts domain concepts using NLP rules, refines them using trained ML/DL models, and integrates the results into a final UML model \cite{ref6}.
+
+Rigou and Khriss proposed a deep learning-based framework using Bi-LSTM, BERT, and GPT-2 models to extract UML class diagrams from natural language requirements. Their system identifies entities, removes redundant references, and classifies relationships using neural networks. Results showed that larger training datasets improved diagram accuracy \cite{ref17, ref18}.
+
+\subsection{Gaps in the Literature}
+
+Despite significant progress, several limitations remain in existing UML diagram extraction systems:
+
+\begin{itemize}
+    \item \textbf{Limited Diagram Coverage:} Most tools primarily focus on generating UML class diagrams, while other important diagram types such as use case diagrams, sequence diagrams, and activity diagrams receive less attention.
+    
+    \item \textbf{Dependence on Rule-Based Systems:} Many approaches rely on fixed linguistic rules and heuristics, making them less flexible when dealing with diverse writing styles, complex sentence structures, or informal requirements.
+    
+    \item \textbf{Handling of Incomplete Requirements:} Existing systems struggle to generate accurate diagrams when requirement documents are missing key information, leading to incomplete or incorrect UML models.
+    
+    \item \textbf{Grammatical and Semantic Challenges:} Ambiguity, grammatical inconsistencies, and contextual misunderstandings in natural language often cause extraction errors, even in advanced NLP-based tools.
+    
+    \item \textbf{High Manual Intervention:} Several systems require human input to refine relationships, remove irrelevant elements, or correct extracted models, reducing scalability and automation.
+    
+    \item \textbf{Limited Real-World Scalability:} Many tools are tested only on small datasets or controlled inputs, making their performance in large-scale, real-world projects uncertain.
+    
+    \item \textbf{Restricted Input Formats:} Some systems require standardized or structured requirements, limiting their usability with freely written natural language documents.
+\end{itemize}

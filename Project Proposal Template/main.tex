@@ -1,0 +1,179 @@
+\documentclass[12pt, a4paper]{report}
+\usepackage{graphicx} % For including images
+\usepackage{titlesec} % For customizing section titles
+\usepackage{tocloft} % For customizing table of contents
+\usepackage{acro} % For acronyms
+%\usepackage{hyperref} % For clickable links in the document
+%% ____Bibliography____%%
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{chapterbib}
+\usepackage[breaklinks]{hyperref}
+%\hypersetup{colorlinks=true,citecolor=blue,linkcolor=blue,urlcolor=blue}
+% Page margins
+\usepackage[left=1.5in, right=1in, top=1in, bottom=1in]{geometry}
+
+% Remove page number from the first page
+\thispagestyle{empty}
+
+% Customize table of contents, list of figures, and list of tables
+\renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
+\renewcommand{\cftloftitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftafterloftitle}{\hfill}
+\renewcommand{\cftlottitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftafterlottitle}{\hfill}
+
+% Define acronyms
+\DeclareAcronym{AI}{
+  short = AI,
+  long  = Artificial Intelligence
+}
+\DeclareAcronym{ML}{
+  short = ML,
+  long  = Machine Learning
+}
+
+
+\begin{document}
+
+\include{cover}
+
+\renewcommand{\thepage}{\roman{page}} % Start page numbering in roman
+
+\chapter*{Abstract}
+Abstract goes here.
+\newpage
+
+% Table of Contents
+\tableofcontents
+\newpage
+
+% List of Figures
+\listoffigures
+\newpage
+
+% List of Tables
+\listoftables
+\newpage
+
+% Acronyms
+\addcontentsline{toc}{chapter}{Acronyms} % Add to table of contents
+\acuseall % Use all acronyms to ensure they appear in the list
+\printacronyms
+\newpage
+
+\renewcommand{\thepage}{\arabic{page}} % Start page numbering in arabic 
+\setcounter{page}{1} % start page numbering from 1
+
+% Main Content
+\chapter{Introduction}
+\section{Background}
+The rapid growth of technology and the expanding influence of the software and IT industry have significantly transformed how individuals and organizations operate. Software applications now play a central role in driving innovation across domains such as healthcare, education, finance, and entertainment. As software systems become more complex, the demand for efficient, accurate, and collaborative software development processes has increased. Effective communication tools and clear design methodologies are essential to ensure a shared understanding among all stakeholders involved in software projects.
+
+Unified Modeling Language (UML) diagrams are widely used to represent software designs in a standardized and visual manner. They help illustrate system components, interactions, and workflows, making them understandable to both technical and non-technical users. However, creating UML diagrams manually from textual software requirements is a time-consuming and expertise-dependent task. This process often leads to inconsistencies, misinterpretations, and inefficiencies, especially in large-scale projects where speed and accuracy are critical.
+
+Recent advancements in Artificial Intelligence (AI), particularly in Natural Language Processing (NLP) and Deep Learning (DL), provide a promising solution to this problem. NLP enables machines to understand and analyze human language, while DL models can learn complex patterns and generate meaningful outputs. By leveraging these technologies, our project aims to automate the generation of UML diagrams---specifically class diagrams and use case diagrams---from natural language software requirements. This approach seeks to provide a more comprehensive and practical solution for software design automation.
+
+Existing automated systems face several limitations, including the inability to handle incomplete requirement documents, restrictions on sentence structure, and difficulties in understanding grammatical nuances. These issues often result in inaccurate or incomplete UML diagrams. Our proposed system addresses these challenges by supporting unrestricted natural language input, improving grammatical analysis, and handling missing information more effectively.
+
+From a practical and commercial perspective, automating UML diagram generation can significantly reduce development time and cost. It can improve team productivity, enhance collaboration among distributed teams, and ensure consistency in design documentation. By improving efficiency, accuracy, and scalability, our solution can help organizations gain a competitive advantage in today's fast-paced software industry.
+
+This project proposes a robust AI-driven framework that converts textual software requirements into accurate UML diagrams. By bridging the gap between natural language and visual system models, our work contributes to the integration of AI technologies into the software development lifecycle.
+
+\section{Problem Statement}
+Despite the significant role that UML diagrams play in software development, existing tools for generating them from natural language requirements have several limitations. Most current solutions focus primarily on class diagrams, while neglecting other important diagram types such as use case diagrams. Furthermore, these tools struggle with incomplete requirement documents, restricted input formats, and grammatical inconsistencies, which often result in errors and inefficiencies. As a result, considerable manual intervention is required, reducing the scalability, accuracy, and practicality of these systems in real-world software development environments.
+
+\section{Objectives and Scope}
+State the objectives of your project clearly.
+
+\chapter{Literature Review}
+\section{Previous Work}
+%Discuss relevant previous work in the field. For instance, \cite{jones2019ml} discusses advancements in \ac{ML}.
+The extraction of UML class diagrams from informal software requirements has traditionally been addressed using Natural Language Processing (NLP) techniques combined with heuristic rules or domain ontologies. Over time, researchers have explored more advanced approaches, including machine learning (ML) and deep learning (DL), to improve automation, accuracy, and efficiency. Existing studies mainly fall into three categories: NLP-based, ML-based, and DL-based approaches \cite{ref7}.
+
+\subsubsection{NLP-Based Approaches}
+
+Ibrahim and Ahmad introduced the RACE tool, which uses NLP techniques to analyze software requirements and extract UML class diagrams. The process includes structural analysis, refinement of diagram elements, and validation of UML concepts. However, the generated diagrams often lack complete information \cite{ref8}.
+
+Kumar and Sanyal developed the SUGAR tool using the Rational Unified Process (RUP) methodology. It generates UML class diagrams from natural language requirements by first creating use case diagrams and then linking them to class diagram components. This approach supports object-oriented analysis but still relies heavily on predefined structures \cite{ref9}.
+
+Sharma et al. proposed the Functional Design Creation Tool (FDCT), which preprocesses and analyzes requirements to identify model entities and integrate them into high-level class diagrams \cite{ref10}.
+
+Deeptimahanti and Sanyal introduced UMGAR, a semi-automatic system that uses syntactic rules and analysis trees to extract UML elements. Although it can generate multiple UML diagram types, it requires human intervention to refine relationships and remove irrelevant elements \cite{ref11}.
+
+Similarly, the RAPID tool by More and Phalnikar can generate use case, sequence, and collaboration diagrams using an architecture similar to RACE \cite{ref12}.
+
+Shinde et al. developed a system that applies NLP preprocessing and rule-based extraction to generate UML class and sequence diagrams, and even produce Java source code from the extracted models \cite{ref13}.
+
+The UDRA tool by Amune and Naik combines NLP with domain ontologies to generate various UML diagrams such as class, object, package, and deployment diagrams. It supports relationships like association, generalization, and composition \cite{ref4}.
+
+Other language-specific approaches include the work of Jaiwai and Sammapun, who developed a system for Thai-language requirements, and Utama and Jang, who used SpaCy with linguistic rules to extract UML class diagrams from unrestricted natural language \cite{ref5}.
+
+Abdelnabi et al. proposed an NLP and heuristic-based method for generating class diagrams from informal requirements \cite{ref13}.
+
+Bashir et al. developed the READ tool, which uses the NLTK library and rule-based extraction to automatically identify classes, attributes, and operations. Their results showed improved accuracy compared to earlier tools \cite{ref14, ref15}.
+
+\subsubsection{Machine Learning and Deep Learning Approaches}
+
+Although NLP-based systems improved automation, they still struggle with ambiguity, incompleteness, and uncertainty in natural language requirements \cite{ref16}.
+
+Arachchi proposed a hybrid system that combines NLP, machine learning, and deep learning to generate UML class and use case diagrams. The system uses NLP for text processing, Naive Bayes for classification, and RNNs for identifying actors, classes, and relationships \cite{ref17}.
+
+Saini et al. introduced DoMoBOT, which integrates NLP with ML and DL models to generate domain models as UML class diagrams. The system preprocesses text using SpaCy, extracts domain concepts using NLP rules, refines them using trained ML/DL models, and integrates the results into a final UML model \cite{ref6}.
+
+Rigou and Khriss proposed a deep learning-based framework using Bi-LSTM, BERT, and GPT-2 models to extract UML class diagrams from natural language requirements. Their system identifies entities, removes redundant references, and classifies relationships using neural networks. Results showed that larger training datasets improved diagram accuracy \cite{ref17, ref18}.
+
+\section{Gaps in Literature}
+Despite significant progress, several limitations remain in existing UML diagram extraction systems:
+
+\begin{itemize}
+    \item \textbf{Limited Diagram Coverage:} Most tools primarily focus on generating UML class diagrams, while other important diagram types such as use case diagrams, sequence diagrams, and activity diagrams receive less attention.
+    
+    \item \textbf{Dependence on Rule-Based Systems:} Many approaches rely on fixed linguistic rules and heuristics, making them less flexible when dealing with diverse writing styles, complex sentence structures, or informal requirements.
+    
+    \item \textbf{Handling of Incomplete Requirements:} Existing systems struggle to generate accurate diagrams when requirement documents are missing key information, leading to incomplete or incorrect UML models.
+    
+    \item \textbf{Grammatical and Semantic Challenges:} Ambiguity, grammatical inconsistencies, and contextual misunderstandings in natural language often cause extraction errors, even in advanced NLP-based tools.
+    
+    \item \textbf{High Manual Intervention:} Several systems require human input to refine relationships, remove irrelevant elements, or correct extracted models, reducing scalability and automation.
+    
+    \item \textbf{Limited Real-World Scalability:} Many tools are tested only on small datasets or controlled inputs, making their performance in large-scale, real-world projects uncertain.
+    
+    \item \textbf{Restricted Input Formats:} Some systems require standardized or structured requirements, limiting their usability with freely written natural language documents.
+\end{itemize}
+
+\chapter{Methodology}
+\section{Research Design}
+Describe the research design and methodology. Use diagrams or flow charts to illustatre the methodology.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.95\textwidth]{microgrid-architecture.png} % Replace with your image file
+    \caption{This is an example image.}
+    \label{fig:example}
+\end{figure}
+
+As shown in Figure \ref{fig:example}, the image is centered and has a caption.
+
+\section{Data Collection}
+Explain how data will be collected for the project.
+
+\chapter{Timeline and Resource Required}
+
+\section{Timeline}
+Provide a realistic timeline for completing the project. Use a Gantt chart or table.
+
+\section{Resource Required}
+State the resource required for the project and estimate the budget for the resources required.
+
+\chapter{Conclusion}
+Summarize the key points of your proposal and reiterate the importance of the project.
+
+% References
+\renewcommand{\bibname}{References}
+\bibliographystyle{ieeetr}
+\addcontentsline{toc}{chapter}{References} % Add to table of contents
+\bibliography{bibliography} 
+%\printbibliography
+
+\end{document}
