@@ -17,5 +17,5 @@
 \contentsline {chapter}{\numberline {4}Timeline and Resource Required}{7}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Timeline}{7}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Resource Required}{7}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusion}{8}{chapter.5}%
-\contentsline {chapter}{References}{8}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Conclusion}{10}{chapter.5}%
+\contentsline {chapter}{References}{10}{chapter.5}%
