@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  10 JAN 2026 00:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  10 JAN 2026 00:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -410,7 +410,7 @@ Package hyperref Info: Link coloring OFF on input line 47.
 \openout2 = `cover.aux'.
 
 (cover.tex
-<uor_logo.jpg, id=66, 236.885pt x 332.24126pt>
+<uor_logo.jpg, id=78, 236.885pt x 332.24126pt>
 File: uor_logo.jpg Graphic file (type jpg)
 <use uor_logo.jpg>
 Package pdftex.def Info: uor_logo.jpg  used on input line 7.
@@ -454,136 +454,136 @@ been already used, duplicate ignored
 l.96 
       [1
 
-] [2]
+] [2] [3]
 Chapter 2.
 
-Package natbib Warning: Citation `ref7' on page 3 undefined on input line 108.
+Package natbib Warning: Citation `ref7' on page 4 undefined on input line 161.
 
 
-Package natbib Warning: Citation `ref8' on page 3 undefined on input line 112.
+Package natbib Warning: Citation `ref8' on page 4 undefined on input line 165.
 
 
-Package natbib Warning: Citation `ref9' on page 3 undefined on input line 114.
+Package natbib Warning: Citation `ref9' on page 4 undefined on input line 167.
 
 
-Package natbib Warning: Citation `ref10' on page 3 undefined on input line 116.
-
-
-
-Package natbib Warning: Citation `ref11' on page 3 undefined on input line 118.
+Package natbib Warning: Citation `ref10' on page 4 undefined on input line 169.
 
 
 
-Package natbib Warning: Citation `ref12' on page 3 undefined on input line 120.
+Package natbib Warning: Citation `ref11' on page 4 undefined on input line 171.
 
 
 
-Package natbib Warning: Citation `ref13' on page 3 undefined on input line 122.
+Package natbib Warning: Citation `ref12' on page 4 undefined on input line 173.
 
 
 
-Package natbib Warning: Citation `ref4' on page 3 undefined on input line 124.
+Package natbib Warning: Citation `ref13' on page 4 undefined on input line 175.
 
-[3
+
+
+Package natbib Warning: Citation `ref4' on page 4 undefined on input line 177.
+
+[4
 
 ]
 
-Package natbib Warning: Citation `ref5' on page 4 undefined on input line 126.
+Package natbib Warning: Citation `ref5' on page 5 undefined on input line 179.
 
 
-Package natbib Warning: Citation `ref13' on page 4 undefined on input line 128.
-
-
-
-Package natbib Warning: Citation `ref14' on page 4 undefined on input line 130.
+Package natbib Warning: Citation `ref13' on page 5 undefined on input line 181.
 
 
 
-Package natbib Warning: Citation `ref15' on page 4 undefined on input line 130.
+Package natbib Warning: Citation `ref14' on page 5 undefined on input line 183.
 
 
 
-Package natbib Warning: Citation `ref16' on page 4 undefined on input line 134.
+Package natbib Warning: Citation `ref15' on page 5 undefined on input line 183.
 
 
 
-Package natbib Warning: Citation `ref17' on page 4 undefined on input line 136.
+Package natbib Warning: Citation `ref16' on page 5 undefined on input line 187.
 
 
 
-Package natbib Warning: Citation `ref6' on page 4 undefined on input line 138.
-
-
-Package natbib Warning: Citation `ref17' on page 4 undefined on input line 140.
+Package natbib Warning: Citation `ref17' on page 5 undefined on input line 189.
 
 
 
-Package natbib Warning: Citation `ref18' on page 4 undefined on input line 140.
+Package natbib Warning: Citation `ref6' on page 5 undefined on input line 191.
 
 
-[4] [5]
+Package natbib Warning: Citation `ref17' on page 5 undefined on input line 193.
+
+
+
+Package natbib Warning: Citation `ref18' on page 5 undefined on input line 193.
+
+
+[5] [6]
 Chapter 3.
-<microgrid-architecture.png, id=139, 413.74574pt x 245.718pt>
+<microgrid-architecture.png, id=161, 413.74574pt x 245.718pt>
 File: microgrid-architecture.png Graphic file (type png)
 <use microgrid-architecture.png>
-Package pdftex.def Info: microgrid-architecture.png  used on input line 167.
+Package pdftex.def Info: microgrid-architecture.png  used on input line 220.
 (pdftex.def)             Requested size: 395.98996pt x 235.18546pt.
-[6
+[7
 
  <./microgrid-architecture.png>]
 Chapter 4.
 
-Underfull \hbox (badness 4752) in paragraph at lines 189--190
+Underfull \hbox (badness 4752) in paragraph at lines 242--243
 []\OT1/cmr/m/n/12 Conduct lit-er-a-ture re-view on
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 191--192
+Underfull \hbox (badness 3895) in paragraph at lines 244--245
 []\OT1/cmr/m/n/12 Identify chal-lenges and re-fine
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 []\OT1/cmr/m/n/12 Refined Prob-lem
  []
 
 
-Underfull \hbox (badness 6808) in paragraph at lines 203--204
+Underfull \hbox (badness 6808) in paragraph at lines 256--257
 []\OT1/cmr/m/n/12 Prepare train-ing and test-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 []\OT1/cmr/m/n/12 Design pre-pro-cess-ing pipeline
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 \OT1/cmr/m/n/12 (to-k-eniza-tion, POS tag-ging,
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 205--206
+Underfull \hbox (badness 1527) in paragraph at lines 258--259
 []\OT1/cmr/m/n/12 Explore NLP and DL mod-els
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 []\OT1/cmr/m/n/12 Preprocessing
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 217--218
+Underfull \hbox (badness 1735) in paragraph at lines 270--271
 []\OT1/cmr/m/n/12 Implement AI-based UML ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
 []\OT1/cmr/m/n/12 System Doc-u-men-ta-
  []
 
 
-Overfull \hbox (34.54462pt too wide) in paragraph at lines 183--259
+Overfull \hbox (34.54462pt too wide) in paragraph at lines 236--312
  [][] 
  []
 
@@ -591,34 +591,34 @@ Overfull \hbox (34.54462pt too wide) in paragraph at lines 183--259
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--279
+Underfull \hbox (badness 10000) in paragraph at lines 332--332
 []\OT1/cmr/m/n/12 Diagram Gen-er-a-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 []\OT1/cmr/m/n/12 Data Stor-age and
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 288--289
+Underfull \hbox (badness 1728) in paragraph at lines 341--342
 \OT1/cmr/m/n/12 (GPU sup-port pre-ferred), at least 8GB
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7
+[8
 
-] [8] [9]
+] [9] [10]
 Chapter 5.
-(main.bbl [10
+(main.bbl [11
 
 ])
 
 Package natbib Warning: There were undefined citations.
 
-[11
+[12
 
 ] (main.aux (cover.aux))
  ***********
@@ -626,14 +626,14 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5762419C4CEFC4A6D4968DC1204DBD8F;1989.
+(rerunfilecheck)             Checksum: 0F5CF402FB8ED7DEC15B43E0E8667833;2315.
  ) 
 Here is how much of TeX's memory you used:
- 13994 strings out of 467871
- 273324 string characters out of 5419829
+ 14001 strings out of 467871
+ 273403 string characters out of 5419829
  690113 words of memory out of 5000000
- 42710 multiletter control sequences out of 15000+600000
- 635079 words of font info for 64 fonts, out of 8000000 for 9000
+ 42713 multiletter control sequences out of 15000+600000
+ 635081 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,695b,569s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\HP\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm120
@@ -642,9 +642,9 @@ cmbx12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmr12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmr17.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (17 pages, 259345 bytes).
+Output written on main.pdf (18 pages, 266659 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 227 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 
