@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  11 JAN 2026 14:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  11 JAN 2026 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -502,38 +502,33 @@ File: Proposed Methodology.png Graphic file (type png)
 <use Proposed Methodology.png>
 Package pdftex.def Info: Proposed Methodology.png  used on input line 223.
 (pdftex.def)             Requested size: 395.98996pt x 519.37285pt.
+[7
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Proposed Model.png, id=326, 633.567pt x 233.07076pt>
+]
+<Proposed Model.png, id=330, 633.567pt x 233.07076pt>
 File: Proposed Model.png Graphic file (type png)
 <use Proposed Model.png>
 Package pdftex.def Info: Proposed Model.png  used on input line 230.
 (pdftex.def)             Requested size: 395.98996pt x 145.67241pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7
-
-] [8
+ [8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.251 
-       <./Proposed Methodology.png>] [9
+l.234 \subsection{Requirement Analysis}
+                                        <./Proposed Methodology.png>] [9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.272 \subsection{Dataset Selection}
-                                     <./Proposed Model.png>] [10]
+l.251 
+       <./Proposed Model.png>] [10]
 Overfull \hbox (4.6072pt too wide) in paragraph at lines 305--306
 \OT1/cmr/m/n/12 ries, and project de-scrip-tions will be ex-tracted from plat-f
 orms such as GitHub,
  []
 
-[11] [12]
+[11] [12] [13]
 Chapter 4.
 
 Underfull \hbox (badness 4752) in paragraph at lines 357--358
@@ -580,7 +575,7 @@ Overfull \hbox (47.55841pt too wide) in alignment at lines 351--422
  [] [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [13
+ignored error: Infinite glue shrinkage found in box being split [14
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 442--442
@@ -597,7 +592,7 @@ Underfull \hbox (badness 1728) in paragraph at lines 451--452
 \OT1/cmr/m/n/12 (GPU sup-port pre-ferred), at least 8GB
  []
 
-[14] [15
+[15] [16
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -605,11 +600,11 @@ as been already used, duplicate ignored
 l.461 \chapter
               {Conclusion}]
 Chapter 5.
-(main.bbl [16
+(main.bbl [17
 
-] [17
+] [18
 
-]) [18] (main.aux (cover.aux))
+]) [19] (main.aux (cover.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -618,10 +613,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: EE1713D57D82AC615EAA4E4A12144A42;6070.
  ) 
 Here is how much of TeX's memory you used:
- 14371 strings out of 467871
- 279734 string characters out of 5419829
+ 14373 strings out of 467871
+ 279751 string characters out of 5419829
  693639 words of memory out of 5000000
- 43026 multiletter control sequences out of 15000+600000
+ 43027 multiletter control sequences out of 15000+600000
  635088 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,10n,79p,695b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -631,9 +626,9 @@ cmbx12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmr12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmr17.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (25 pages, 805079 bytes).
+Output written on main.pdf (26 pages, 805482 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
- 91 named destinations out of 1000 (max. 500000)
+ 428 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
  352 words of extra memory for PDF output out of 10000 (max. 10000000)
 
