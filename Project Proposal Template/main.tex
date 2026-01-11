@@ -213,19 +213,134 @@ Despite significant progress, several limitations remain in existing UML diagram
 
 \chapter{Methodology}
 \section{Research Design}
-Describe the research design and methodology. Use diagrams or flow charts to illustatre the methodology.
+In addition to the initial literature review and problem analysis, this research adopts a \textbf{constructive research methodology} to design, develop, and evaluate an AI-driven framework for automating UML diagram generation from natural language software requirements. The methodology is structured into several sequential stages, as illustrated in Figure~1 and Figure~2.
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.95\textwidth]{microgrid-architecture.png} % Replace with your image file
-    \caption{This is an example image.}
-    \label{fig:example}
+    \includegraphics[width=0.95\textwidth]{Proposed Methodology.png} % Replace with your image file
+    \caption{proposed Methodology}
+    
 \end{figure}
 
-As shown in Figure \ref{fig:example}, the image is centered and has a caption.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.95\textwidth]{Proposed Model.png} % Replace with your image file
+    \caption{proposed Model}
+    
+\end{figure}
+\subsection{Requirement Analysis}
+The process begins with the collection and analysis of natural language software requirements from academic datasets, industry documentation, and open-source repositories. This stage focuses on identifying ambiguities, inconsistencies, and missing information within the textual requirements to understand real-world challenges in requirement interpretation.
+
+\subsection{Preprocessing using NLP}
+The collected text is preprocessed using Natural Language Processing (NLP) techniques such as tokenization, part-of-speech (POS) tagging, dependency parsing, and coreference resolution. These steps help normalize the input text, resolve pronoun references, and improve grammatical clarity for accurate information extraction.
+
+\subsection{Sentence Classification}
+Each sentence is classified into UML-related categories such as \textit{class definitions, relationships, use cases, and actors}. Transformer-based deep learning models, including BERT and GPT, are used to capture semantic meaning and contextual dependencies in the text.
+
+\subsection{UML Element Extraction}
+Relevant UML components such as classes, attributes, associations, and use cases are extracted from the classified sentences. Linguistic features and semantic patterns are analyzed to ensure accurate identification of structural and behavioral elements.
+
+\subsection{UML Diagram Generation}
+The extracted elements are converted into UML diagrams using tools such as \textbf{PlantUML} and \textbf{Graphviz}. The framework supports the generation of both \textit{class diagrams} and \textit{use case diagrams}, ensuring coverage of system structure and functionality.
+
+\subsection{Evaluation and Validation}
+The generated UML diagrams are evaluated using standard metrics such as \textbf{precision, recall, and F1-score} to measure accuracy. Usability testing is conducted with software engineering students and professionals to assess clarity, usefulness, and practical applicability. Comparative analysis with existing tools highlights improvements in efficiency, scalability, and automation.
+
+\section{Application of the Proposed Model}
+
+The proposed framework has wide applicability across multiple domains in software engineering and education.
+
+\subsection{Software Development Projects}
+The system enables automatic generation of UML diagrams from textual requirements, reducing manual effort and improving consistency. This is especially useful in \textit{Agile environments}, where rapid documentation is essential.
+
+\subsection{Education and Training}
+Students can focus on understanding system design rather than manual diagram creation. Educators can use the tool to assess projects efficiently.
+
+\subsection{Requirements Engineering}
+Analysts can visualize stakeholder requirements early in the development lifecycle, reducing ambiguities and improving client validation.
+
+\subsection{Industry Domains}
+The framework is suitable for domains such as \textit{healthcare, finance, and education}, where complex workflows and regulatory compliance require precise system modeling.
+
+\section{Evaluation Plan}
+
+The evaluation strategy ensures the reliability, scalability, and effectiveness of the proposed framework.
+
+\subsection{Dataset Selection}
+Datasets include academic sources, industry case studies, and open-source documentation to ensure diversity and linguistic complexity.
+
+\subsection{Evaluation Metrics}
+\begin{itemize}
+    \item \textbf{Accuracy:} Precision, Recall, F1-score
+    \item \textbf{Completeness:} Comparison with ground-truth UML diagrams
+    \item \textbf{Scalability:} Runtime and resource usage
+\end{itemize}
+
+\subsection{Experimental Validation}
+The system is compared with existing UML automation tools using benchmark datasets and real-world case studies.
+
+\subsection{Usability Testing}
+Surveys and interviews gather feedback on diagram clarity, usability, and practical value.
+
+\subsection{Error Analysis}
+Misclassifications are analyzed to improve handling of ambiguous and incomplete inputs.
+
+\subsection{Discussion}
+
+The proposed framework introduces a robust AI-based solution for automating UML diagram generation using advanced NLP and deep learning techniques. By supporting both \textit{class} and \textit{use case diagrams}, the model addresses structural and behavioral system representations. Its ability to process \textit{unrestricted and ambiguous text} makes it suitable for real-world requirements.
+
+The use of transformer models such as BERT and GPT enables deep semantic understanding, while integration with PlantUML ensures industry-standard outputs. Although challenges such as computational cost and domain adaptability remain, the framework significantly improves efficiency, reduces manual effort, and enhances collaboration among stakeholders.
+
 
 \section{Data Collection}
-Explain how data will be collected for the project.
+To train and evaluate the proposed AI-driven UML generation framework, a diverse and high-quality dataset of natural language software requirements will be collected from multiple reliable sources. The data collection process will focus on ensuring linguistic diversity, domain variety, and real-world relevance.
+
+\subsection{Data Sources}
+The dataset will be compiled from the following sources:
+
+\begin{itemize}
+    \item \textbf{Open-source Software Repositories:} Requirement documents, user stories, and project descriptions will be extracted from platforms such as GitHub, SourceForge, and GitLab.
+    \item \textbf{Academic Datasets:} Publicly available datasets used in software engineering and NLP research will be utilized to ensure benchmark comparability.
+    \item \textbf{Industry Case Studies:} Sample requirement documents from industry projects (where permitted) will be included to reflect real-world complexity.
+    \item \textbf{Synthetic Data Generation:} Artificial requirement texts will be generated to simulate incomplete, ambiguous, and unstructured requirements.
+\end{itemize}
+
+\subsection{Data Types}
+The collected data will include:
+
+\begin{itemize}
+    \item Functional and non-functional requirements
+    \item User stories
+    \item Use case descriptions
+    \item Software specification documents
+\end{itemize}
+
+\subsection{Data Annotation}
+The dataset will be manually and semi-automatically annotated with:
+
+\begin{itemize}
+    \item UML classes
+    \item Attributes
+    \item Relationships
+    \item Use cases
+    \item Actors
+\end{itemize}
+
+These annotations will serve as ground truth for training and evaluating the deep learning model.
+
+\subsection{Data Preprocessing}
+Before model training, the collected data will be cleaned and standardized by:
+
+\begin{itemize}
+    \item Removing noise and irrelevant text
+    \item Resolving pronouns using coreference tools
+    \item Correcting grammatical inconsistencies
+    \item Normalizing sentence structures
+\end{itemize}
+
+\subsection{Ethical Considerations}
+All data will be collected from publicly available or authorized sources. Any sensitive or proprietary information will be anonymized to ensure privacy and compliance with ethical research standards.
+
 
 \chapter{Timeline and Resource Required}
 
