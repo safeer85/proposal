@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  11 JAN 2026 13:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  11 JAN 2026 14:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -315,48 +315,78 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks21
 \@floatcapt=\box55
 )
-\c@g@acro@AI@int=\count315
-\c@g@acro@ML@int=\count316
-\c@g@acro@UML@int=\count317
-\c@g@acro@NLP@int=\count318
-\c@g@acro@DL@int=\count319
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen168
+\ar@mcellbox=\box56
+\extrarowheight=\dimen169
+\NC@list=\toks22
+\extratabsurround=\skip90
+\backup@length=\skip91
+\ar@cellbox=\box57
+)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip92
+\LTright=\skip93
+\LTpre=\skip94
+\LTpost=\skip95
+\LTchunksize=\count315
+\LTcapwidth=\dimen170
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count316
+\LT@rows=\count317
+\c@LT@tables=\count318
+\c@LT@chunks=\count319
+\LT@p@ftn=\toks23
+)
+\c@g@acro@AI@int=\count320
+\c@g@acro@ML@int=\count321
+\c@g@acro@UML@int=\count322
+\c@g@acro@NLP@int=\count323
+\c@g@acro@DL@int=\count324
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 48.
- (main.aux (cover.aux))
+h' as default language. on input line 50.
+
+(main.aux (cover.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count320
-\scratchdimen=\dimen168
-\scratchbox=\box56
-\nofMPsegments=\count321
-\nofMParguments=\count322
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count323
-\MPscratchDim=\dimen169
-\MPnumerator=\count324
-\makeMPintoPDFobject=\count325
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count325
+\scratchdimen=\dimen171
+\scratchbox=\box63
+\nofMPsegments=\count326
+\nofMParguments=\count327
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count328
+\MPscratchDim=\dimen172
+\MPnumerator=\count329
+\makeMPintoPDFobject=\count330
+\everyMPtoPDFconversion=\toks25
 )
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base
 .sty
@@ -373,8 +403,8 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 48.
-Package hyperref Info: Link coloring OFF on input line 48.
+or `english'. on input line 50.
+Package hyperref Info: Link coloring OFF on input line 50.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -458,8 +488,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.99 
-      [1
+l.101 
+       [1
 
 ] [2] [3]
 Chapter 2.
@@ -470,7 +500,7 @@ Chapter 3.
 <Proposed Methodology.png, id=324, 386.6445pt x 507.0945pt>
 File: Proposed Methodology.png Graphic file (type png)
 <use Proposed Methodology.png>
-Package pdftex.def Info: Proposed Methodology.png  used on input line 221.
+Package pdftex.def Info: Proposed Methodology.png  used on input line 223.
 (pdftex.def)             Requested size: 395.98996pt x 519.37285pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -478,7 +508,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <Proposed Model.png, id=326, 633.567pt x 233.07076pt>
 File: Proposed Model.png Graphic file (type png)
 <use Proposed Model.png>
-Package pdftex.def Info: Proposed Model.png  used on input line 228.
+Package pdftex.def Info: Proposed Model.png  used on input line 230.
 (pdftex.def)             Requested size: 395.98996pt x 145.67241pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -490,15 +520,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.249 
+l.251 
        <./Proposed Methodology.png>] [9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.270 \subsection{Dataset Selection}
+l.272 \subsection{Dataset Selection}
                                      <./Proposed Model.png>] [10]
-Overfull \hbox (4.6072pt too wide) in paragraph at lines 303--304
+Overfull \hbox (4.6072pt too wide) in paragraph at lines 305--306
 \OT1/cmr/m/n/12 ries, and project de-scrip-tions will be ex-tracted from plat-f
 orms such as GitHub,
  []
@@ -506,17 +536,17 @@ orms such as GitHub,
 [11] [12]
 Chapter 4.
 
-Underfull \hbox (badness 4752) in paragraph at lines 356--357
+Underfull \hbox (badness 4752) in paragraph at lines 357--358
 []\OT1/cmr/m/n/12 Conduct lit-er-a-ture re-view on
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 358--359
+Underfull \hbox (badness 3895) in paragraph at lines 359--360
 []\OT1/cmr/m/n/12 Identify chal-lenges and re-fine
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
 []\OT1/cmr/m/n/12 Refined Prob-lem
  []
 
@@ -531,68 +561,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 371--372
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
-\OT1/cmr/m/n/12 (to-k-eniza-tion, POS tag-ging,
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 372--373
-[]\OT1/cmr/m/n/12 Explore NLP and DL mod-els
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 377--378
 []\OT1/cmr/m/n/12 Preprocessing
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 384--385
+Underfull \hbox (badness 1735) in paragraph at lines 383--384
 []\OT1/cmr/m/n/12 Implement AI-based UML ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--422
+Underfull \hbox (badness 10000) in paragraph at lines 417--418
 []\OT1/cmr/m/n/12 System Doc-u-men-ta-
  []
 
 
-Overfull \hbox (34.54462pt too wide) in paragraph at lines 350--426
- [][] 
+Overfull \hbox (47.55841pt too wide) in alignment at lines 351--422
+ [] [] [] 
  []
 
-[13
+ignored error: Infinite glue shrinkage found in box being split [13
 
 ]
-Overfull \vbox (212.37651pt too high) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 442--442
+[]|\OT1/cmr/m/n/12 Diagram Gen-er-a-tion
+ []
 
 
-[14
-pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.428 
-      ]
 Underfull \hbox (badness 10000) in paragraph at lines 446--446
-[]\OT1/cmr/m/n/12 Diagram Gen-er-a-tion
+[]|\OT1/cmr/m/n/12 Data Stor-age and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--450
-[]\OT1/cmr/m/n/12 Data Stor-age and
- []
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 455--456
+Underfull \hbox (badness 1728) in paragraph at lines 451--452
 \OT1/cmr/m/n/12 (GPU sup-port pre-ferred), at least 8GB
  []
 
-[15
+[14] [15
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.465 \chapter
+l.461 \chapter
               {Conclusion}]
 Chapter 5.
 (main.bbl [16
@@ -608,20 +618,20 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: EE1713D57D82AC615EAA4E4A12144A42;6070.
  ) 
 Here is how much of TeX's memory you used:
- 14198 strings out of 467871
- 277139 string characters out of 5419829
- 688738 words of memory out of 5000000
- 42859 multiletter control sequences out of 15000+600000
+ 14371 strings out of 467871
+ 279734 string characters out of 5419829
+ 693555 words of memory out of 5000000
+ 43026 multiletter control sequences out of 15000+600000
  635088 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,695b,653s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,695b,684s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\HP\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm120
 0.pk><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmr12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmr17.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (25 pages, 802991 bytes).
+Output written on main.pdf (25 pages, 803121 bytes).
 PDF statistics:
  424 PDF objects out of 1000 (max. 8388607)
  91 named destinations out of 1000 (max. 500000)
