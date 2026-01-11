@@ -11,6 +11,7 @@
 %\hypersetup{colorlinks=true,citecolor=blue,linkcolor=blue,urlcolor=blue}
 % Page margins
 \usepackage[left=1.5in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{float}
 
 % Remove page number from the first page
 \thispagestyle{empty}
@@ -52,11 +53,11 @@
 
 \chapter*{Abstract}
 The growing complexity of modern software systems and the need for effective communication among stakeholders have made Unified Modeling Language (UML) diagrams a vital component of software engineering. However, manually creating UML diagrams from textual requirements is a time-consuming, error-prone process that requires considerable expertise. To address this challenge, this research proposes an AI-driven framework for automatically generating UML class and use case diagrams from natural language software requirements.
-
+\vspace{0.5cm}
 The proposed system leverages advanced Natural Language Processing (NLP) and Deep Learning (DL) techniques to interpret unrestricted, ambiguous, and incomplete textual inputs more accurately. By improving grammatical and semantic understanding, the framework aims to produce more reliable and comprehensive UML representations.
-
+\vspace{0.5cm}
 The methodology includes both quantitative and qualitative evaluation. Accuracy is measured using standard metrics such as precision, recall, and F1-score, while usability is assessed through feedback from students and industry professionals. A comparative analysis with existing tools demonstrates that the proposed approach offers improved scalability, robustness, and efficiency.
-
+\vspace{0.5cm}
 This research contributes to the field of software engineering by reducing manual effort, enhancing design accuracy, and improving collaboration among stakeholders. By automating UML diagram generation, the proposed framework supports more efficient and adaptive software development workflows, benefiting both academic research and industrial practice.
 \newpage
 
@@ -84,16 +85,16 @@ This research contributes to the field of software engineering by reducing manua
 % Main Content
 \chapter{Introduction}
 \section{Background}
-The rapid growth of technology and the expanding influence of the software and IT industry have significantly transformed how individuals and organizations operate. Software applications now play a central role in driving innovation across domains such as healthcare, education, finance, and entertainment. As software systems become more complex, the demand for efficient, accurate, and collaborative software development processes has increased. Effective communication tools and clear design methodologies are essential to ensure a shared understanding among all stakeholders involved in software projects.
-
-Unified Modeling Language (UML) diagrams are widely used to represent software designs in a standardized and visual manner. They help illustrate system components, interactions, and workflows, making them understandable to both technical and non-technical users. However, creating UML diagrams manually from textual software requirements is a time-consuming and expertise-dependent task. This process often leads to inconsistencies, misinterpretations, and inefficiencies, especially in large-scale projects where speed and accuracy are critical.
-
-Recent advancements in Artificial Intelligence (AI), particularly in Natural Language Processing (NLP) and Deep Learning (DL), provide a promising solution to this problem. NLP enables machines to understand and analyze human language, while DL models can learn complex patterns and generate meaningful outputs. By leveraging these technologies, our project aims to automate the generation of UML diagrams---specifically class diagrams and use case diagrams---from natural language software requirements. This approach seeks to provide a more comprehensive and practical solution for software design automation.
-
-Existing automated systems face several limitations, including the inability to handle incomplete requirement documents, restrictions on sentence structure, and difficulties in understanding grammatical nuances. These issues often result in inaccurate or incomplete UML diagrams. Our proposed system addresses these challenges by supporting unrestricted natural language input, improving grammatical analysis, and handling missing information more effectively.
-
+The rapid growth of technology and the expanding influence of the software and IT industry have significantly transformed how individuals and organizations operate. Software applications now play a central role in driving innovation across domains such as healthcare, education, finance, and entertainment. As software systems become more complex, the demand for efficient, accurate, and collaborative software development processes has increased \cite{yang2022towards}. Effective communication tools and clear design methodologies are essential to ensure a shared understanding among all stakeholders involved in software projects \cite{ferrari2024model}.
+\vspace{0.5cm}
+Unified Modeling Language (UML) diagrams are widely used to represent software designs in a standardized and visual manner \cite{hafeez2019importance}. They help illustrate system components, interactions, and workflows, making them understandable to both technical and non-technical users \cite{Naik2016}. However, creating UML diagrams manually from textual software requirements is a time-consuming and expertise-dependent task. This process often leads to inconsistencies, misinterpretations, and inefficiencies, especially in large-scale projects where speed and accuracy are critical \cite{Naik2016}.
+\vspace{0.5cm}
+Recent advancements in Artificial Intelligence (AI), particularly in Natural Language Processing (NLP) and Deep Learning (DL), provide a promising solution to this problem \cite{ahmed2022automatic}. NLP enables machines to understand and analyze human language, while DL models can learn complex patterns and generate meaningful outputs. By leveraging these technologies, our project aims to automate the generation of UML diagrams---specifically class diagrams and use case diagrams---from natural language software requirements. This approach seeks to provide a more comprehensive and practical solution for software design automation.
+\vspace{0.5cm}
+Existing automated systems face several limitations, including the inability to handle incomplete requirement documents, restrictions on sentence structure, and difficulties in understanding grammatical nuances \cite{alashqar2021automatic}. These issues often result in inaccurate or incomplete UML diagrams. Our proposed system addresses these challenges by supporting unrestricted natural language input, improving grammatical analysis, and handling missing information more effectively.
+\vspace{0.5cm}
 From a practical and commercial perspective, automating UML diagram generation can significantly reduce development time and cost. It can improve team productivity, enhance collaboration among distributed teams, and ensure consistency in design documentation. By improving efficiency, accuracy, and scalability, our solution can help organizations gain a competitive advantage in today's fast-paced software industry.
-
+\vspace{0.5cm}
 This project proposes a robust AI-driven framework that converts textual software requirements into accurate UML diagrams. By bridging the gap between natural language and visual system models, our work contributes to the integration of AI technologies into the software development lifecycle.
 
 \section{Problem Statement}
@@ -158,39 +159,39 @@ The project does not cover:
 \chapter{Literature Review}
 \section{Previous Work}
 %Discuss relevant previous work in the field. For instance, \cite{jones2019ml} discusses advancements in \ac{ML}.
-The extraction of UML class diagrams from informal software requirements has traditionally been addressed using Natural Language Processing (NLP) techniques combined with heuristic rules or domain ontologies. Over time, researchers have explored more advanced approaches, including machine learning (ML) and deep learning (DL), to improve automation, accuracy, and efficiency. Existing studies mainly fall into three categories: NLP-based, ML-based, and DL-based approaches \cite{ref7}.
+The extraction of UML class diagrams from informal software requirements has traditionally been addressed using Natural Language Processing (NLP) techniques combined with heuristic rules or domain ontologies. Over time, researchers have explored more advanced approaches, including machine learning (ML) and deep learning (DL), to improve automation, accuracy, and efficiency. Existing studies mainly fall into three categories: NLP-based, ML-based, and DL-based approaches \cite{babaalla2024extraction}.
 
 \subsubsection{NLP-Based Approaches}
 
-Ibrahim and Ahmad introduced the RACE tool, which uses NLP techniques to analyze software requirements and extract UML class diagrams. The process includes structural analysis, refinement of diagram elements, and validation of UML concepts. However, the generated diagrams often lack complete information \cite{ref8}.
-
-Kumar and Sanyal developed the SUGAR tool using the Rational Unified Process (RUP) methodology. It generates UML class diagrams from natural language requirements by first creating use case diagrams and then linking them to class diagram components. This approach supports object-oriented analysis but still relies heavily on predefined structures \cite{ref9}.
-
-Sharma et al. proposed the Functional Design Creation Tool (FDCT), which preprocesses and analyzes requirements to identify model entities and integrate them into high-level class diagrams \cite{ref10}.
-
-Deeptimahanti and Sanyal introduced UMGAR, a semi-automatic system that uses syntactic rules and analysis trees to extract UML elements. Although it can generate multiple UML diagram types, it requires human intervention to refine relationships and remove irrelevant elements \cite{ref11}.
-
-Similarly, the RAPID tool by More and Phalnikar can generate use case, sequence, and collaboration diagrams using an architecture similar to RACE \cite{ref12}.
-
-Shinde et al. developed a system that applies NLP preprocessing and rule-based extraction to generate UML class and sequence diagrams, and even produce Java source code from the extracted models \cite{ref13}.
-
-The UDRA tool by Amune and Naik combines NLP with domain ontologies to generate various UML diagrams such as class, object, package, and deployment diagrams. It supports relationships like association, generalization, and composition \cite{ref4}.
-
-Other language-specific approaches include the work of Jaiwai and Sammapun, who developed a system for Thai-language requirements, and Utama and Jang, who used SpaCy with linguistic rules to extract UML class diagrams from unrestricted natural language \cite{ref5}.
-
-Abdelnabi et al. proposed an NLP and heuristic-based method for generating class diagrams from informal requirements \cite{ref13}.
-
-Bashir et al. developed the READ tool, which uses the NLTK library and rule-based extraction to automatically identify classes, attributes, and operations. Their results showed improved accuracy compared to earlier tools \cite{ref14, ref15}.
+Ibrahim and Ahmad introduced the RACE tool, which uses NLP techniques to analyze software requirements and extract UML class diagrams. The process includes structural analysis, refinement of diagram elements, and validation of UML concepts. However, the generated diagrams often lack complete information \cite{ibrahim2010class}.
+\vspace{0.5cm}
+Kumar and Sanyal developed the SUGAR tool using the Rational Unified Process (RUP) methodology. It generates UML class diagrams from natural language requirements by first creating use case diagrams and then linking them to class diagram components. This approach supports object-oriented analysis but still relies heavily on predefined structures \cite{shweta2020impact}.
+\vspace{0.5cm}
+Sharma et al. proposed the Functional Design Creation Tool (FDCT), which preprocesses and analyzes requirements to identify model entities and integrate them into high-level class diagrams \cite{sharma2009extracting}.
+\vspace{0.5cm}
+Deeptimahanti and Sanyal introduced UMGAR, a semi-automatic system that uses syntactic rules and analysis trees to extract UML elements. Although it can generate multiple UML diagram types, it requires human intervention to refine relationships and remove irrelevant elements \cite{deeptimahanti2011semi}.
+\vspace{0.5cm}
+Similarly, the RAPID tool by More and Phalnikar can generate use case, sequence, and collaboration diagrams using an architecture similar to RACE \cite{more2012generating}.
+\vspace{0.5cm}
+Shinde et al. developed a system that applies NLP preprocessing and rule-based extraction to generate UML class and sequence diagrams, and even produce Java source code from the extracted models \cite{bozyi2016autoclass}.
+\vspace{0.5cm}
+The UDRA tool by Amune and Naik combines NLP with domain ontologies to generate various UML diagrams such as class, object, package, and deployment diagrams. It supports relationships like association, generalization, and composition \cite{Naik2016}.
+\vspace{0.5cm}
+Other language-specific approaches include the work of Jaiwai and Sammapun, who developed a system for Thai-language requirements, and Utama and Jang, who used SpaCy with linguistic rules to extract UML class diagrams from unrestricted natural language \cite{ahmed2022automatic}.
+\vspace{0.5cm}
+Abdelnabi et al. proposed an NLP and heuristic-based method for generating class diagrams from informal requirements \cite{bozyi2016autoclass}.
+\vspace{0.5cm}
+Bashir et al. developed the READ tool, which uses the NLTK library and rule-based extraction to automatically identify classes, attributes, and operations. Their results showed improved accuracy compared to earlier tools \cite{meng2024automated, bashir2021modeling}.
 
 \subsubsection{Machine Learning and Deep Learning Approaches}
 
-Although NLP-based systems improved automation, they still struggle with ambiguity, incompleteness, and uncertainty in natural language requirements \cite{ref16}.
-
-Arachchi proposed a hybrid system that combines NLP, machine learning, and deep learning to generate UML class and use case diagrams. The system uses NLP for text processing, Naive Bayes for classification, and RNNs for identifying actors, classes, and relationships \cite{ref17}.
-
-Saini et al. introduced DoMoBOT, which integrates NLP with ML and DL models to generate domain models as UML class diagrams. The system preprocesses text using SpaCy, extracts domain concepts using NLP rules, refines them using trained ML/DL models, and integrates the results into a final UML model \cite{ref6}.
-
-Rigou and Khriss proposed a deep learning-based framework using Bi-LSTM, BERT, and GPT-2 models to extract UML class diagrams from natural language requirements. Their system identifies entities, removes redundant references, and classifies relationships using neural networks. Results showed that larger training datasets improved diagram accuracy \cite{ref17, ref18}.
+Although NLP-based systems improved automation, they still struggle with ambiguity, incompleteness, and uncertainty in natural language requirements \cite{bird2006nltk}.
+\vspace{0.5cm}
+Arachchi proposed a hybrid system that combines NLP, machine learning, and deep learning to generate UML class and use case diagrams. The system uses NLP for text processing, Naive Bayes for classification, and RNNs for identifying actors, classes, and relationships \cite{abdelnabi2021generating}.
+\vspace{0.5cm}
+Saini et al. introduced DoMoBOT, which integrates NLP with ML and DL models to generate domain models as UML class diagrams. The system preprocesses text using SpaCy, extracts domain concepts using NLP rules, refines them using trained ML/DL models, and integrates the results into a final UML model \cite{alashqar2021automatic}.
+\vspace{0.5cm}
+Rigou and Khriss proposed a deep learning-based framework using Bi-LSTM, BERT, and GPT-2 models to extract UML class diagrams from natural language requirements. Their system identifies entities, removes redundant references, and classifies relationships using neural networks. Results showed that larger training datasets improved diagram accuracy \cite{abdelnabi2021generating, babaalla2024extraction}.
 
 \section{Gaps in Literature}
 Despite significant progress, several limitations remain in existing UML diagram extraction systems:
@@ -288,7 +289,7 @@ Misclassifications are analyzed to improve handling of ambiguous and incomplete 
 \subsection{Discussion}
 
 The proposed framework introduces a robust AI-based solution for automating UML diagram generation using advanced NLP and deep learning techniques. By supporting both \textit{class} and \textit{use case diagrams}, the model addresses structural and behavioral system representations. Its ability to process \textit{unrestricted and ambiguous text} makes it suitable for real-world requirements.
-
+\vspace{0.5cm}
 The use of transformer models such as BERT and GPT enables deep semantic understanding, while integration with PlantUML ensures industry-standard outputs. Although challenges such as computational cost and domain adaptability remain, the framework significantly improves efficiency, reduces manual effort, and enhances collaboration among stakeholders.
 
 
@@ -340,12 +341,10 @@ Before model training, the collected data will be cleaned and standardized by:
 
 \subsection{Ethical Considerations}
 All data will be collected from publicly available or authorized sources. Any sensitive or proprietary information will be anonymized to ensure privacy and compliance with ethical research standards.
-
-
 \chapter{Timeline and Resource Required}
 
 \section{Timeline}
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{|c|p{7cm}|p{5cm}|}
@@ -428,7 +427,7 @@ Month 8 &
 \end{table}
 
 \section{Resource Required}
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{|p{4cm}|p{8cm}|}
@@ -465,9 +464,9 @@ Python, VS Code, GitHub for version control, and LaTeX for documentation and rep
 \end{table}
 \chapter{Conclusion}
 This research proposes a robust AI-driven framework for automating the generation of UML diagrams from natural language software requirements. By addressing key challenges such as ambiguity, incomplete inputs, and grammatical inconsistencies, the proposed system enhances the accuracy and efficiency of software design processes. The integration of advanced Natural Language Processing (NLP) and Deep Learning (DL) techniques enables scalable automation and supports multiple UML diagram types, thereby improving collaboration among stakeholders.
-
+\vspace{0.5cm}
 The proposed methodology, supported by rigorous evaluation and validation, ensures that the framework is practical and suitable for real-world software engineering applications. Although certain limitations, including scalability and domain-specific adaptability, require further investigation, this research establishes a strong foundation for incorporating AI-based solutions into the software development lifecycle.
-
+\vspace{0.5cm}
 The outcomes of this study have the potential to transform how software designs are documented and communicated, offering significant benefits to both academia and industry. Future work will focus on extending support for additional UML diagram types, enhancing domain adaptability, and refining evaluation methods to further improve the effectiveness of AI-driven software design automation.
 
 % References

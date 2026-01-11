@@ -41,7 +41,7 @@
 \contentsline {subsection}{\numberline {3.4.4}Data Preprocessing}{12}{subsection.3.4.4}%
 \contentsline {subsection}{\numberline {3.4.5}Ethical Considerations}{12}{subsection.3.4.5}%
 \contentsline {chapter}{\numberline {4}Timeline and Resource Required}{13}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Timeline}{13}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Resource Required}{13}{section.4.2}%
+\contentsline {section}{\numberline {4.1}Timeline}{14}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Resource Required}{15}{section.4.2}%
 \contentsline {chapter}{\numberline {5}Conclusion}{16}{chapter.5}%
 \contentsline {chapter}{References}{16}{chapter.5}%

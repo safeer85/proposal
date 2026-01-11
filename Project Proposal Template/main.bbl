@@ -1,7 +1,91 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{jones2019ml}
-A.~Jones, {\em Machine Learning: Theory and Practice}.
-\newblock Tech Publications, 2019.
+\bibitem{yang2022towards}
+S.~Yang and H.~Sahraoui, ``Towards automatically extracting uml class diagrams
+  from natural language specifications,'' in {\em Proceedings of the 25th
+  International Conference on Model Driven Engineering Languages and Systems:
+  Companion Proceedings}, pp.~396--403, 2022.
+
+\bibitem{ferrari2024model}
+A.~Ferrari, S.~Abualhaija, and C.~Arora, ``Model generation with llms: From
+  requirements to uml sequence diagrams,'' in {\em 2024 IEEE 32nd International
+  Requirements Engineering Conference Workshops (REW)}, pp.~291--300, IEEE,
+  2024.
+
+\bibitem{hafeez2019importance}
+A.~Hafeez, M.~Ahmed, M.~Furqan, W.~Rehaman, and I.~Husain, ``Importance and
+  impact of class diagram in software development,'' {\em Indian J Sci
+  Technol}, vol.~12, no.~25, pp.~1--4, 2019.
+
+\bibitem{Naik2016}
+R.~Naik, ``Reflecting natural language text into uml diagrams,'' 2016.
+
+\bibitem{ahmed2022automatic}
+S.~Ahmed, A.~Ahmed, and N.~U. Eisty, ``Automatic transformation of natural to
+  unified modeling language: A systematic review,'' in {\em 2022 IEEE/ACIS 20th
+  International Conference on Software Engineering Research, Management and
+  Applications (SERA)}, pp.~112--119, IEEE, 2022.
+
+\bibitem{alashqar2021automatic}
+A.~M. Alashqar, ``Automatic generation of uml diagrams from scenario-based user
+  requirements,'' {\em Jordanian Journal of Computers and Information
+  Technology}, vol.~7, no.~2, 2021.
+
+\bibitem{babaalla2024extraction}
+Z.~Babaalla, H.~Abdelmalek, A.~Jakimi, and M.~Oualla, ``Extraction of uml class
+  diagrams using deep learning: Comparative study and critical analysis,'' {\em
+  Procedia Computer Science}, vol.~236, pp.~452--459, 2024.
+
+\bibitem{ibrahim2010class}
+M.~Ibrahim and R.~Ahmad, ``Class diagram extraction from textual requirements
+  using natural language processing (nlp) techniques,'' in {\em 2010 Second
+  International Conference on Computer Research and Development}, pp.~200--204,
+  IEEE, 2010.
+
+\bibitem{shweta2020impact}
+Shweta and R.~Sanyal, ``Impact of passive and negative sentences in automatic
+  generation of static uml diagram using nlp,'' {\em Journal of Intelligent \&
+  Fuzzy Systems}, vol.~39, no.~2, pp.~2047--2059, 2020.
+
+\bibitem{sharma2009extracting}
+V.~S. Sharma, S.~Sarkar, K.~Verma, A.~Panayappan, and A.~Kass, ``Extracting
+  high-level functional design from software requirements,'' in {\em 2009 16th
+  Asia-Pacific Software Engineering Conference}, pp.~35--42, IEEE, 2009.
+
+\bibitem{deeptimahanti2011semi}
+D.~K. Deeptimahanti and R.~Sanyal, ``Semi-automatic generation of uml models
+  from natural language requirements,'' in {\em Proceedings of the 4th India
+  Software Engineering Conference}, pp.~165--174, 2011.
+
+\bibitem{more2012generating}
+P.~More and R.~Phalnikar, ``Generating uml diagrams from natural language
+  specifications,'' {\em International Journal of Applied Information Systems},
+  vol.~1, no.~8, pp.~19--23, 2012.
+
+\bibitem{bozyi2016autoclass}
+F.~Bozyi, K.~Deniz, {\em et~al.}, ``Autoclass: automatic text to oop concept
+  identification model,'' {\em International Journal of Computer Applications},
+  vol.~150, no.~10, 2016.
+
+\bibitem{meng2024automated}
+Y.~Meng and A.~Ban, ``Automated uml class diagram generation from textual
+  requirements using nlp techniques,'' {\em JOIV: International Journal on
+  Informatics Visualization}, vol.~8, no.~3-2, pp.~1905--1915, 2024.
+
+\bibitem{bashir2021modeling}
+N.~Bashir, M.~Bilal, M.~Liaqat, M.~Marjani, N.~Malik, and M.~Ali, ``Modeling
+  class diagram using nlp in object-oriented designing,'' in {\em 2021 National
+  Computing Colleges Conference (NCCC)}, pp.~1--6, IEEE, 2021.
+
+\bibitem{bird2006nltk}
+S.~Bird, ``Nltk: the natural language toolkit,'' in {\em Proceedings of the
+  COLING/ACL 2006 interactive presentation sessions}, pp.~69--72, 2006.
+
+\bibitem{abdelnabi2021generating}
+E.~A. Abdelnabi, A.~M. Maatuk, and M.~Hagal, ``Generating uml class diagram
+  from natural language requirements: A survey of approaches and techniques,''
+  in {\em 2021 IEEE 1st International Maghreb Meeting of the Conference on
+  Sciences and Techniques of Automatic Control and Computer Engineering
+  MI-STA}, pp.~288--293, IEEE, 2021.
 
 \end{thebibliography}
