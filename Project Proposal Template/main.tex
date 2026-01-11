@@ -12,6 +12,8 @@
 % Page margins
 \usepackage[left=1.5in, right=1in, top=1in, bottom=1in]{geometry}
 \usepackage{float}
+\usepackage{array}
+\usepackage{longtable}
 
 % Remove page number from the first page
 \thispagestyle{empty}
@@ -344,10 +346,9 @@ All data will be collected from publicly available or authorized sources. Any se
 \chapter{Timeline and Resource Required}
 
 \section{Timeline}
-\begin{table}[H]
-\centering
 \renewcommand{\arraystretch}{1.3}
-\begin{tabular}{|c|p{7cm}|p{5cm}|}
+\begin{center}
+\begin{longtable}{|p{3cm}|p{7cm}|p{5cm}|}
 \hline
 \textbf{Time Period} & \textbf{Activities} & \textbf{Deliverables} \\
 \hline
@@ -362,27 +363,24 @@ Month 1--2 &
     \item Literature Review Report
     \item Refined Problem Statement
 \end{itemize}
-\\
-\hline
+\\ \hline
 
 Month 3--4 &
 \begin{itemize}
     \item Prepare training and testing dataset
-    \item Design preprocessing pipeline (tokenization, POS tagging, parsing)
-    \item Explore NLP and DL models (BERT, GPT)
+    \item Design preprocessing pipeline (tokenization, POS tagging)
+    \item Explore NLP and DL models
 \end{itemize}
 &
 \begin{itemize}
     \item Prepared Dataset
     \item Preprocessing Pipeline Design
 \end{itemize}
-\\
-\hline
+\\ \hline
 
 Month 5--6 &
 \begin{itemize}
     \item Implement AI-based UML extraction model
-    \item Train and fine-tune the model
     \item Generate UML class and use case diagrams
     \item Integrate PlantUML / Graphviz
 \end{itemize}
@@ -391,12 +389,11 @@ Month 5--6 &
     \item Working UML Generation System
     \item Generated UML Diagrams
 \end{itemize}
-\\
-\hline
+\\ \hline
 
 Month 7 &
 \begin{itemize}
-    \item Evaluate using precision, recall, F1-score
+    \item Evaluate using precision, recall, and F1-score
     \item Compare with existing tools
     \item Conduct usability testing
 \end{itemize}
@@ -405,8 +402,7 @@ Month 7 &
     \item Evaluation Report
     \item Performance Comparison Results
 \end{itemize}
-\\
-\hline
+\\ \hline
 
 Month 8 &
 \begin{itemize}
@@ -420,11 +416,11 @@ Month 8 &
     \item Presentation Slides
     \item System Documentation
 \end{itemize}
-\\
-\hline
-\end{tabular}
+\\ \hline
+
 \caption{8-Month Project Work Plan}
-\end{table}
+\end{longtable}
+\end{center}
 
 \section{Resource Required}
 \begin{table}[H]
